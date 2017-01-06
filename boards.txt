@@ -1,20 +1,18 @@
-CC3200-LAUNCHXL.name=CC3200-LAUNCHXL (80MHz)
-CC3200-LAUNCHXL.upload.maximum_size=262144
-CC3200-LAUNCHXL.build.mcu=cortex-m4
-CC3200-LAUNCHXL.build.f_cpu=80000000L
-CC3200-LAUNCHXL.build.core=cc3200emt
-CC3200-LAUNCHXL.build.variant=CC3200_LAUNCHXL
-CC3200-LAUNCHXL.build.ldscript=ti/runtime/wiring/cc3200/linker.cmd
-CC3200-LAUNCHXL.build.board=CC3200_LAUNCHXL
-CC3200-LAUNCHXL.build.mcu=cortex-m4
-CC3200-LAUNCHXL.upload.tool=cc3200prog
-CC3200-LAUNCHXL.upload.protocol=cc3200prog
-#CC3200-LAUNCHXL.upload.maximum_data_size=32768
+CC3200_LAUNCHXL_EMT.name=CC3200-LAUNCHXL EMT (80MHz)
+CC3200_LAUNCHXL_EMT.upload.maximum_size=262144
+CC3200_LAUNCHXL_EMT.build.f_cpu=80000000L
+CC3200_LAUNCHXL_EMT.build.core=cc3200emt
+CC3200_LAUNCHXL_EMT.build.variant=CC3200_LAUNCHXL
+CC3200_LAUNCHXL_EMT.build.ldscript=ti/runtime/wiring/cc3200/linker.cmd
+CC3200_LAUNCHXL_EMT.build.board=CC3200_LAUNCHXL
+CC3200_LAUNCHXL_EMT.build.mcu=cortex-m4
+CC3200_LAUNCHXL_EMT.upload.tool=cc3200prog
+CC3200_LAUNCHXL_EMT.upload.protocol=cc3200prog
+#CC3200_LAUNCHXL_EMT.upload.maximum_data_size=32768
 ##############################################################
 
 #CC3200-RBL.name=RedBearLab CC3200 (80MHz)
 #CC3200-RBL.upload.maximum_size=262144
-#CC3200-RBL.build.mcu=cortex-m4
 #CC3200-RBL.build.f_cpu=80000000L
 #CC3200-RBL.build.core=cc3200
 #CC3200-RBL.build.variant=RedBearLab_CC3200
@@ -28,7 +26,6 @@ CC3200-LAUNCHXL.upload.protocol=cc3200prog
 
 #CC3200-RBL-MINI.name=RedBearLab WiFi Mini w/ CC3200 (80MHz)
 #CC3200-RBL-MINI.upload.maximum_size=262144
-#CC3200-RBL-MINI.build.mcu=cortex-m4
 #CC3200-RBL-MINI.build.f_cpu=80000000L
 #CC3200-RBL-MINI.build.core=cc3200
 #CC3200-RBL-MINI.build.variant=RedBearLab_WiFiMini
@@ -42,7 +39,6 @@ CC3200-LAUNCHXL.upload.protocol=cc3200prog
 
 #CC3200-RBL-MICRO.name=RedBearLab WiFi Micro w/ CC3200 (80MHz)
 #CC3200-RBL-MICRO.upload.maximum_size=262144
-#CC3200-RBL-MICRO.build.mcu=cortex-m4
 #CC3200-RBL-MICRO.build.f_cpu=80000000L
 #CC3200-RBL-MICRO.build.core=cc3200
 #CC3200-RBL-MICRO.build.variant=RedBearLab_WiFiMicro
